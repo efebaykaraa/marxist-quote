@@ -1,0 +1,19 @@
+About gui:
+- Remove the name "marxist quote config" title.
+- Move the interactive button to the right, renaming it to "Text Position".
+- Make the font a dropdown instead of a textfield.
+- Implement color picker just to the right side of the text field.
+- When hovered, it shall explain what is "weight" for at the author part.
+
+About engyls-place:
+- make the bg libadawaita gray and half opaque.
+- remove max_quote_chars from the ui interface.
+- WTF does corner to both mean, just remove it
+
+About engyls-quote:
+- Still on top, must be on the bottom.
+- Instead of calculating the visible character count, calculate how many a's would fit there. Remove the not-fitting ones from the list.
+- Once trying to save, check if there is at least a single one in the list that fits the field. If there is not, tell the user and do not exit nor save.
+- As you go checkin if they fit the field, also save numbers of the quotes who fit. The it would be easier to pick a random number, quickly getting that element from the list.
+
+It would be great if you could break files into modules and other files inside modules. Otherwise, some even exceed 600 lines.

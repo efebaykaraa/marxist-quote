@@ -1,0 +1,14 @@
+   Compiling gui v0.1.0 (/mnt/external/Projects/marxist_quote/gui)
+warning: field `window` is never read
+  --> gui/src/app/mod.rs:12:9
+   |
+11 | pub struct AppWidgets {
+   |            ---------- field in this struct
+12 |     pub window: adw::Window,
+   |         ^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: `gui` (bin "gui") generated 1 warning
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.10s
+     Running `target/debug/gui`
