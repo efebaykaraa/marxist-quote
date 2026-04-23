@@ -1,0 +1,7 @@
+[workspace]
+members = ["engyls",
+    "gui",
+    "engyls-quote",
+    "engyls-place"
+]
+resolver = "2"
